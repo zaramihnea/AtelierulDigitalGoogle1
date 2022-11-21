@@ -20,4 +20,12 @@ public class pairs {
         return Objects.hash(value1, value2);
     }
 
+    @Override
+    public String toString() {
+        return "pairs{" +
+                "value1=" + value1 +
+                ", value2=" + value2 +
+                '}';
+    }
+
 }
